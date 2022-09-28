@@ -19,18 +19,35 @@ body,
 /* justify-content: ; */
 /* align-items: ; */
 
-.photos1 {
-  
-  display: flex;
-  flex-direction: row;
+.gallary {
+  margin: 15px;
 }
 
-.photos2 {
-  
+.row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
+.row2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
 .image {
-  background:white
-  border:brown
+  margin: 20px auto;
+  padding: 50px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 60%;
+  border-radius: 20px;
 }
