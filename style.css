@@ -3,7 +3,7 @@ body {
   font-style: oblique;
   font-weight: bold;
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #7293a0;
   /* background-image: url("Background.png"); 
   background-repeat: no-repeat;
@@ -11,9 +11,10 @@ body {
 }
 h1 {
   margin: 10px auto;
+  padding-top: 3px;
   color: rgb(1, 10, 19);
   width: 40%;
-  height: 8rem;
+  height: 10rem;
   background: #d8ddef;
   border: 3px solid black;
   box-shadow: 4px 4px;
@@ -42,14 +43,15 @@ body,
   padding: 28px;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
-  width: 30%;
-  height: 375px;
+  font-size: 25px;
+  width: 35.4rem;
+  height: 23.4rem;
   background: #d8ddef;
   border: 3px solid black;
   box-shadow: 5px 5px;
   border-radius: 20px;
   margin-bottom: 30px;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .image:hover {
   transform: scale(1.1);
@@ -74,6 +76,17 @@ body,
 .image-leviathan {
   width: 70%;
   height: 28vh;
+}
+@media screen and (max-width:1000px) {
+.gallery {
+  flex-direction: row;
+ }
+.column-image {
+  width: 45%;
+ }
+}
+
+
 }
 /*  
 .image-duke {
