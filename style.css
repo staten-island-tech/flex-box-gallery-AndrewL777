@@ -17,7 +17,7 @@ h1 {
   height: 10rem;
   background: #d8ddef;
   border: 3px solid black;
-  box-shadow: 4px 4px;
+  box-shadow: 4px 4px 10px;
   margin-bottom: 30px;
 }
 
@@ -29,6 +29,7 @@ body,
   margin: 0;
   box-sizing: border-box;
 }
+
 
 .gallery {
   width: 100%;
@@ -48,19 +49,21 @@ body,
   height: 23.4rem;
   background: #d8ddef;
   border: 3px solid black;
-  box-shadow: 5px 5px;
+  box-shadow: 5px 5px 15px;
   border-radius: 20px;
   margin-bottom: 30px;
   transition: all 0.5s ease-in-out;
 }
 .image:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
 }
 
 .column-image {
-  width: 53%;
+  width: 54%;
   height: 28vh;
 }
+
+
 .image-signus {
   width: 35%;
   height: 28vh;
