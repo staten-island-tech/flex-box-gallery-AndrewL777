@@ -20,6 +20,9 @@ h1 {
   box-shadow: 4px 4px 10px;
   margin-bottom: 30px;
 }
+h2 {
+  font-size: 25px;
+}
 
 html,
 body,
@@ -52,10 +55,16 @@ body,
   box-shadow: 5px 5px 15px;
   border-radius: 20px;
   margin-bottom: 30px;
-  transition: all 0.5s ease-in-out;
+
 }
 .image:hover {
   transform: scale(1.07);
+  transition: all 0.5s ease-in-out;
+}
+.exo:hover {
+  margin-right: 0px;
+  transition: margin 0.4s ease-in-out;
+  margin-top: -15;
 }
 
 .column-image {
@@ -90,7 +99,7 @@ body,
 }
 
 
-}
+
 /*  
 .image-duke {
   width: 53%;
