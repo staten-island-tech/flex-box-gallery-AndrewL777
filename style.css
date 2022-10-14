@@ -14,11 +14,15 @@ h1 {
   padding-top: 3px;
   color: rgb(1, 10, 19);
   width: 40%;
-  height: 10rem;
+  height: 6rem;
   background: #d8ddef;
   border: 3px solid black;
   box-shadow: 4px 4px 10px;
   margin-bottom: 30px;
+  animation-name: color_change;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 h2 {
   font-size: 25px;
@@ -110,16 +114,10 @@ transition: transform 0.5s ease-in-out;
 }
 
 
-.h1 {
-  animation-name: color_change;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
 
-}
 @keyframes color_change {
-	from { background-color: blue; }
-	to { background-color: red; }
+	from { background-color: rgb(42, 190, 183); }
+	to { background-color: rgb(99, 178, 214); }
 }
 
 .column-image {
@@ -145,11 +143,33 @@ transition: transform 0.5s ease-in-out;
   height: 28vh;
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:400px) {
 .gallery {
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ }
+ h1 {
+  width: 90%;
+  font-size: 40px;
  }
 .column-image {
-  width: 45%;
+  width: 35%;
+  height: 10vh;
  }
 }
+
+@media screen and (max-width:1500px) {
+  .gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+   h1 {
+    width: 60%;
+    font-size: 35px;
+   }
+  .column-image {
+    width: 54%;
+   }
+  }
