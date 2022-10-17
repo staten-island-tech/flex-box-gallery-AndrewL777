@@ -160,6 +160,9 @@ transition: transform 0.5s ease-in-out;
   column-image {
     height: 28vh; 
   }
+  image {
+    height: 50vh;
+  }
   }
 
   
