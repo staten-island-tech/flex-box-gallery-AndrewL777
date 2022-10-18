@@ -143,7 +143,16 @@ transition: transform 0.5s ease-in-out;
   height: 28vh;
 }
 
-@media screen and (max-width:1350px) {
+
+@media screen and (max-width:1920px) {
+  h1 {
+    font-size: 33px;
+  }
+  image {
+   width: 40%;
+  }
+
+@media screen and (max-width:1750px) {
   h1 {
     font-size: 33px;
   }
