@@ -17,10 +17,6 @@ h1 {
   border: 3px solid black;
   box-shadow: 4px 4px 10px;
   margin-bottom: 30px;
-  animation-name: color_change;
-	animation-duration: .5s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
 }
 h2 {
   font-size: 25px;
